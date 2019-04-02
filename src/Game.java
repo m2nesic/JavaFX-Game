@@ -6,8 +6,6 @@ import javafx.stage.Stage;
 
 public class Game extends Application {
 
-
-
     public static void main(String[] args){
         launch(args);
     }
@@ -21,6 +19,8 @@ public class Game extends Application {
         Scene scene = new Scene(layout,300,250);
         primaryStage.setScene(scene);
         primaryStage.show();
+
+
     }
 
 }
